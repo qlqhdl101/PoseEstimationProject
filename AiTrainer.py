@@ -19,7 +19,7 @@ while True:
         # Right Arm
         #angle = detector.findAngle(img, 12, 14, 16)
         # # Left Arm
-        angle = detector.findAngle(img, 11, 13, 15)
+        angle = detector.findAngle(img, 23, 25, 27)
         per = np.interp(angle, (210, 310), (0, 100))
         bar = np.interp(angle, (220, 310), (650, 100))
         # print(angle, per)
